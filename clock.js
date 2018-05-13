@@ -1,5 +1,5 @@
 var CronJob = require('./node_modules/cron').CronJob;
-var bot = require('./quickstart.js');
+var bot = require('./bot.js');
 
 //every Tuesday at 11:00am '00 00 11 * * 2'
 var changeNodeWeekly = new CronJob({

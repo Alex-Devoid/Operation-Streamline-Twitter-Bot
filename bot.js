@@ -206,7 +206,7 @@ console.log('6');
   firebaseCourtDate = mmCourt+'-'+ddCourt+'-'+yyyyCourt;
 
 
-  if (formatedcourtDate == todayDate1){
+  if (formatedcourtDate !== todayDate1){
 
     var defendantNumber = db.ref('defendantNumber1');
 
